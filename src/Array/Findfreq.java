@@ -15,7 +15,7 @@ public class Findfreq {
                     arr[j]=-1;
                 }
             }
-            System.out.println(arr[i]+" "+count);
+            System.out.println("Count of "+arr[i]+" is: "+count);
         }
 
     }
