@@ -6,7 +6,6 @@ class Stu{
 }
 
 public class Student {
-
     public static void main(String[] args) {
         Stu s=new Stu();
         Stu s2=new Stu();
