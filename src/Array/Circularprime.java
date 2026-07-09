@@ -33,5 +33,6 @@ public class Circularprime {
     public static void main(String[] args) {
         int num=113;
         System.out.println(iscircularPrime(num));
+
     }
 }
