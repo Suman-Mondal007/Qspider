@@ -1,20 +1,18 @@
 package LinkedList;
 
-import java.util.*;
-
-class Node {
+class node {
     int data;
-    Node next;
+    node next;
 
-    public Node(int data) {
+    public node(int data) {
         this.data = data;
         this.next = null;
     }
 }
 
 class SinglyLinkedList {
-    Node head;
-    Node tail;
+    node head;
+    node tail;
     int size;
 
     public boolean isEmpty() {
@@ -22,7 +20,7 @@ class SinglyLinkedList {
     }
 
     public boolean append(int data) {
-        Node n = new Node(data);
+        node n = new node(data);
 
         if (isEmpty()) {
             head = tail = n;
@@ -41,7 +39,7 @@ class SinglyLinkedList {
             return;
         }
 
-        Node temp = head;
+        node temp = head;
         while (temp != null) {
             System.out.print(temp.data + " ");
             temp = temp.next;
